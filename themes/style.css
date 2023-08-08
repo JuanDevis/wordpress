@@ -1,0 +1,59 @@
+/* 
+name: juandevis1
+author: juandevis1 
+*/
+
+.juandevis {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding: 100px 40px 100px  40px;
+    background: #191927;
+ 
+}
+
+.juandevis2{
+
+
+border: 1px solid #ffffff;
+padding: 20px;
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+
+
+
+}
+
+
+.juandevis2 img {
+    /* Set the max-width of the post thumbnail */
+    max-width: 80%;
+    /* Set the height to auto to maintain aspect ratio */
+    height: auto;
+    /* Ensure the thumbnail stays within the box */
+    display: block;
+    /* Center the thumbnail within the box */
+    margin: 0 auto;
+}
+
+.total {
+
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+
+}
+
+
+.button {
+
+    display: flex;
+    justify-content: center; /* Horizontally center-align */
+    align-items: center; /* Vertically center-align */
+    background-color: #1313eb;
+    color: #ffffff;
+    text-decoration: none; /* Remove underline from link */
+    padding: 10px 20px; /* Add padding for better readability */
+    font-family: POPPINS;
+}
