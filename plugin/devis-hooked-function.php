@@ -14,7 +14,7 @@ version: 1.0
 
 function mi_nueva_funcion() {
 
-  ?>  <a href="<?php the_permalink()?>" class="button">KNOW MORE</a> <?php
+  ?>  <a href="<?php the_permalink()?>" class="button">KNOW MOREs</a> <?php
 ;
 }
 
